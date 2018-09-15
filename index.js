@@ -14,4 +14,4 @@ function makeInt(n) { return parseInt(n) }
 
 function makeInt(n) { return parseInt(n, 10) }
 
-preserveDecimal(n) = parseFloat(n)
+function preserveDecimal(n) { console.log (parseFloat(n))}
